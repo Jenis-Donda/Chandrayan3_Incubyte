@@ -171,3 +171,22 @@ test("for multiple commands", () => {
     expect(output).toStrictEqual(expected);
     
   });
+
+test("for multiple commands", () => {
+    const commands = ['u','u','f','l'];
+  
+    const start = {
+      coordinates: [0,0,0],
+      direction: "U",
+    };
+    
+    const expected = {
+      coordinates: [0,-1,0],
+      direction: "E",
+    };
+  
+    const output = processCommands(commands, start);
+    expect(output).toStrictEqual(expected);
+    
+  });
+
