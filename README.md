@@ -97,7 +97,7 @@ this will run particular test file of your project. Here testing is a folder tha
     
     if direction is "N"  or "S" or "E" or "W" -> "U"
 
-    if direction is "U" -> "N"
+    if direction is "U" -> "D"
 
     if direction is "D" -> "S"
 
