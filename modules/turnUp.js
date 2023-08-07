@@ -3,7 +3,7 @@ function turnUp(Direction) {
       return "U";
     }
     if (Direction === "U") {
-      return "N";
+      return "D";
     }
     if (Direction === "D") {
       return "S";
